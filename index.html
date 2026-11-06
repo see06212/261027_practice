@@ -1,13 +1,106 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>261027_practice</title>
+    <meta name="theme-color" content="#f4f7f8" />
+    <meta name="description" content="Academic profile of Somi Park, an educational technology researcher at Seoul National University." />
+    <title>Somi Park | Academic Profile</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#home" data-page="home" aria-label="Go to the home page">Somi Park<span class="wordmark-dot">.</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#research" data-page="research">Research</a>
+          <a href="#publications" data-page="publications">Publications</a>
+          <a href="#presentations" data-page="presentations">Presentations</a>
+        </nav>
+        <a class="header-contact" href="mailto:see06212@snu.ac.kr">Get in touch <span aria-hidden="true">↗</span></a>
+      </header>
+
+      <main id="top">
+        <section class="intro" id="home" data-view="home" aria-labelledby="intro-title">
+          <div class="intro-copy">
+            <p class="eyebrow"><span class="status-dot"></span> Academic profile</p>
+            <h1>I am a researcher<br /><em>studying learning with AI.</em></h1>
+            <p class="intro-summary">I study how learners collaborate, interact, and solve authentic problems in AI supported learning environments.</p>
+            <div class="intro-links">
+              <a class="button button-primary" href="#research" data-page="research">Explore my work <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="mailto:see06212@snu.ac.kr">see06212@snu.ac.kr <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <aside class="profile-card" aria-label="Profile details">
+            <div class="portrait-placeholder research-visual" role="img" aria-label="Illustration connecting a human learner, AI, and learning">
+              <svg viewBox="0 0 280 210" aria-hidden="true" focusable="false">
+                <path class="loop-path" d="M82 79 C94 37 176 31 203 73 C231 117 197 164 151 166 C113 168 82 145 77 116" />
+                <path class="loop-path loop-path-secondary" d="M198 132 C179 178 108 185 78 143 C48 102 76 57 119 49" />
+                <path class="loop-arrow" d="m74 109 4 10 9-7M117 43l10 5-9 7" />
+                <circle class="visual-node node-person" cx="76" cy="105" r="27" /><circle class="visual-node node-ai" cx="205" cy="83" r="27" /><circle class="visual-node node-learn" cx="151" cy="164" r="23" />
+                <path class="person-icon" d="M69 101a7 7 0 1 1 14 0 7 7 0 0 1-14 0Zm-6 17c1-7 6-11 13-11s12 4 13 11" />
+                <path class="ai-icon" d="M199 75h12a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5h-12a5 5 0 0 1-5-5v-8a5 5 0 0 1 5-5Zm-1 8h.1m13 0h.1m-10 7v3m5-3v3" />
+                <path class="learn-icon" d="M141 161c4-4 9-4 13 0v11c-4-4-9-4-13 0v-11Zm13 0c4-4 9-4 13 0v11c-4-4-9-4-13 0" />
+                <text x="35" y="150">HUMAN</text><text x="187" y="125">AI</text><text x="120" y="202">LEARNING</text>
+              </svg>
+              <span class="visual-caption">HUMAN × AI × LEARNING</span>
+            </div>
+            <div class="profile-caption"><span class="caption-label">M.A. · 2022–2024</span><span>Seoul National University</span></div>
+            <div class="profile-caption"><span class="caption-label">B.A. · 2018–2022</span><span>Seoul National University</span></div>
+          </aside>
+        </section>
+
+          <section class="home-highlights research-carousel" data-view="home" aria-labelledby="highlights-title">
+            <div class="highlights-heading">
+              <div><p class="section-number glance-label"><span class="status-dot" aria-hidden="true"></span>AT A GLANCE</p><h2 id="highlights-title">Research highlights<span>.</span></h2></div>
+              <div class="carousel-controls" aria-label="Research slide controls"><button class="carousel-button carousel-prev" type="button" aria-label="Previous research project">←</button><div class="carousel-dots" role="group" aria-label="Choose a research project"></div><button class="carousel-button carousel-next" type="button" aria-label="Next research project">→</button></div>
+            </div>
+            <div class="highlight-track" aria-live="polite">
+              <article class="highlight-slide is-current" data-slide="0"><p class="highlight-index">01 <span>AI IN EDUCATION</span></p><h3>Learning with an AI based English app</h3><p class="highlight-copy">Compared learning outcomes and strategies across AI supported, online, and offline study methods.</p><p class="highlight-meta">AUG 2022 – FEB 2023 <i></i> SNU</p><img class="research-slide-image" src="/research-language.svg" alt="Learners using a digital language learning tool" /></article>
+              <article class="highlight-slide" data-slide="1" aria-hidden="true"><p class="highlight-index">02 <span>LEARNING ANALYTICS</span></p><h3>Assessing learner competencies</h3><p class="highlight-copy">Developed a model for assessing student competencies using literature review, interviews, and multimodal learning data.</p><p class="highlight-meta">JUL 2022 – FEB 2023 <i></i> SNU</p><img class="research-slide-image" src="/research-data.svg" alt="Researcher examining learner data and learning patterns" /></article>
+              <article class="highlight-slide" data-slide="2" aria-hidden="true"><p class="highlight-index">03 <span>LEARNING SCIENCES</span></p><h3>Building a research institute for learning sciences</h3><p class="highlight-copy">Interviewed experts and piloted wearable and multimodal research equipment to inform institute development.</p><p class="highlight-meta">MAY 2022 – SEP 2022 <i></i> SNU</p><img class="research-slide-image" src="/research-institute.svg" alt="Learner wearing research sensors while brain activity data is reviewed" /></article>
+              <article class="highlight-slide" data-slide="3" aria-hidden="true"><p class="highlight-index">04 <span>PERSONALIZED LEARNING</span></p><h3>Personalized course recommendations</h3><p class="highlight-copy">Analyzed student needs and evaluated the usability of a multi major and course recommendation system.</p><p class="highlight-meta">NOV 2021 – APR 2022 <i></i> SNU</p><img class="research-slide-image" src="/research-recommendation.svg" alt="Student exploring course recommendations on a laptop" /></article>
+            </div>
+          </section>
+
+        <section class="cv-section content-view" id="research" data-view="research" hidden aria-labelledby="research-title">
+          <div class="section-heading"><h2 id="research-title">Research Experience</h2><p class="section-note">Projects on learning, collaboration, and educational AI.</p></div>
+
+          <div class="entry-list">
+            <article class="cv-entry"><div class="entry-date">Aug. 2022<br />– Feb. 2023</div><img class="research-image" src="/research-language.svg" alt="Learners using a digital language learning tool" /><div class="entry-main"><h3>Learning effects of an AI based English learning app</h3><p class="entry-place">Team Member <span>·</span> Seoul, South Korea</p><ul class="entry-points"><li>Evaluated the effectiveness of Riiid’s Santa TOEIC, an English learning app.</li><li>Compared learning outcomes between Santa TOEIC and other online and offline study methods, including textbooks and courses.</li><li>Observed learners in a laboratory setting and analyzed their cognitive, metacognitive, motivational, and emotional learning strategies.</li></ul><div class="tags"><span>AI in education</span><span>Learning strategies</span></div></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+            <article class="cv-entry"><div class="entry-date">Jul. 2022<br />– Feb. 2023</div><img class="research-image" src="/research-data.svg" alt="Researcher examining learner data and learning patterns" /><div class="entry-main"><h3>Learner competency assessment system</h3><p class="entry-place">Team Member <span>·</span> Seoul National University</p><ul class="entry-points"><li>Developed a conceptual and procedural model for an AI based system to assess SNU students’ competencies.</li><li>Reviewed research on learner competency assessment systems and interviewed university members to identify needs.</li><li>Explored learning processes related to problem solving and collaborative learning outcomes using multimodal data.</li></ul><div class="tags"><span>Competency assessment</span><span>Learning analytics</span></div></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+            <article class="cv-entry"><div class="entry-date">May 2022<br />– Sep. 2022</div><img class="research-image" src="/research-institute.svg" alt="Learner wearing research sensors while a researcher reviews brain activity data" /><div class="entry-main"><h3>Development of the SNU Learning Sciences Research Institute</h3><p class="entry-place">Team Member <span>·</span> Seoul National University</p><ul class="entry-points"><li>Investigated best practices from international learning sciences research institutes.</li><li>Interviewed researchers and experts in brain based learning, AI based education, learning analytics, and educational field research about development and practical strategies for the SNU institute.</li><li>Ran a pilot study using wristbands, EEG headsets, smart pens, and webcams to inform infrastructure development and effective use of research devices.</li></ul><div class="tags"><span>Learning sciences</span><span>Multimodal research</span></div></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+            <article class="cv-entry"><div class="entry-date">Nov. 2021<br />– Apr. 2022</div><img class="research-image" src="/research-recommendation.svg" alt="Student exploring course recommendations on a laptop" /><div class="entry-main"><h3>AI based personalized course recommendations</h3><p class="entry-place">Team Member <span>·</span> Seoul National University</p><ul class="entry-points"><li>Analyzed the current status and student needs for a multi major and course recommendation system.</li><li>Evaluated the usability of models implementing the recommendation system’s core features.</li></ul><div class="tags"><span>Personalization</span><span>Usability</span></div></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+          </div>
+        </section>
+
+        <section class="cv-section content-view" id="publications" data-view="publications" hidden aria-labelledby="publications-title">
+          <div class="section-heading"><h2 id="publications-title">Publications</h2><p class="section-note">Journal articles and a book chapter.</p></div>
+          <div class="entry-list publication-list">
+            <article class="cv-entry"><div class="entry-date">2024 <span class="pub-type">JOURNAL ARTICLE</span></div><div class="entry-main"><h3>Difference in interaction patterns between high and low performing groups in online collaborative problem solving</h3><p class="entry-detail">Park, S., Shin, B., Kim, M.S., &amp; Cho, Y.H. <em>The Journal of Educational Information and Media</em>, 30(3), 837–859.</p></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+            <article class="cv-entry"><div class="entry-date">2023 <span class="pub-type">JOURNAL ARTICLE</span></div><div class="entry-main"><h3>A developmental study on design principles for artificial intelligence chatbot in design thinking based online collaborative learning</h3><p class="entry-detail">Ham, Y., Go, B., Park, S., Choo, Y., &amp; Lee, H. <em>Journal of Educational Technology</em>, 39(2), 417–450.</p></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+            <article class="cv-entry"><div class="entry-date">Under review <span class="pub-type">JOURNAL ARTICLE</span></div><div class="entry-main"><h3>Exploring group interactions and perceptions in an AI chatbot supported online collaborative learning environment: Focusing on the design thinking process</h3><p class="entry-detail">Go, B., Ham, Y., Park, S., &amp; Guo, X. <em>International Journal of Computer-Supported Collaborative Learning</em>.</p></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+            <article class="cv-entry"><div class="entry-date">2024 <span class="pub-type">BOOK CHAPTER</span></div><div class="entry-main"><h3>Learning sciences research for educational innovation in the age of artificial intelligence</h3><p class="entry-detail">Cho, Y.H. &amp; Park, S. In D. Kim &amp; S.S. Yoo (Eds.), <em>Innovation and Coexistence Education: Concepts and Practices</em> (pp. 355–402). Kyoyookbook.</p></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+          </div>
+        </section>
+
+        <section class="cv-section section-tint content-view" id="presentations" data-view="presentations" hidden aria-labelledby="presentations-title">
+          <div class="section-heading"><h2 id="presentations-title">Presentations</h2><p class="section-note">Sharing research with the learning sciences community.</p></div>
+          <div class="entry-list presentation-list">
+            <article class="cv-entry"><div class="entry-date">2024<span class="presentation-kind">CONFERENCE PAPER</span></div><div class="entry-main"><h3>The influence of interaction patterns on performance in online collaborative problem solving</h3><p class="entry-place">CSCL 2024 <span>·</span> New York, US</p><p class="entry-detail">Park, S., Shin, B., Keum, S., Choo, Y., Kim, M. S., &amp; Cho, Y. H. Proceedings of the 17th International Conference on Computer-Supported Collaborative Learning, pp. 269–272.</p></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+            <article class="cv-entry"><div class="entry-date">2024<span class="presentation-kind">CONFERENCE PRESENTATION</span></div><div class="entry-main"><h3>Effects of argumentative interaction between learners and ChatGPT on authentic problem solving and learning flow</h3><p class="entry-place">Korean Association for Educational Information and Media, 2024 Spring Conference <span>·</span> Seoul, Korea</p><p class="entry-detail">Park, S., &amp; Cho, Y.H.</p></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+            <article class="cv-entry"><div class="entry-date">2023<span class="presentation-kind">CONFERENCE PRESENTATION</span></div><div class="entry-main"><h3>Cluster analysis of competence and development of prediction model for customized higher education</h3><p class="entry-place">Korean Association for Educational Information and Media, 2023 Fall Conference <span>·</span> Seoul, Korea</p><p class="entry-detail">Choo, Y., Cho, Y.H., Keum, S.Y., &amp; Park, S.</p></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+            <article class="cv-entry"><div class="entry-date">2022<span class="presentation-kind">CONFERENCE PRESENTATION</span></div><div class="entry-main"><h3>Design principles of the educational recommendation system in higher education</h3><p class="entry-place">The 30th International Conference on Computers in Education (ICCE 2022) <span>·</span> Kuala Lumpur, Malaysia</p><p class="entry-detail">Keum, S.Y., Han, Y.J., Park, S.M., Jang, J.H., &amp; Cho, Y.H.</p></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+            <article class="cv-entry"><div class="entry-date">2022<span class="presentation-kind">CONFERENCE PRESENTATION</span></div><div class="entry-main"><h3>Learning analytics of note taking indicators to predict learning outcomes: Using computer vision and text analysis</h3><p class="entry-place">2022 International Conference on Education Research <span>·</span> Seoul, Korea</p><p class="entry-detail">Ham, Y., Cho, Y.H., Kim, H.G., &amp; Park, S.</p></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+            <article class="cv-entry"><div class="entry-date">2024<span class="presentation-kind">SEMINAR</span></div><div class="entry-main"><h3>Computer supported collaborative learning and scaffolding</h3><p class="entry-place">The 2nd Learning Sciences Research Institute Seminar: Trends in Learning Sciences at ISLS 2024 <span>·</span> Seoul, Korea</p><p class="entry-detail">Park, S., &amp; Choi, J.</p></div><span class="entry-mark" aria-hidden="true">↗</span></article>
+          </div>
+        </section>
+
+        <section class="contact-band" data-view="home" aria-labelledby="contact-title"><p class="section-number">LET’S CONNECT</p><h2 id="contact-title">Good research starts<br />with a <em>conversation.</em></h2><a class="button button-light" href="mailto:see06212@snu.ac.kr">Send me a note <span aria-hidden="true">↗</span></a></section>
+      </main>
+      <footer class="site-footer"><a class="wordmark" href="#home" data-page="home">Somi Park<span class="wordmark-dot">.</span></a><span>© <span id="year">2026</span> Somi Park</span><a class="back-top" href="#home" data-page="home">Back to top ↑</a></footer>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
+
