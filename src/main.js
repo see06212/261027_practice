@@ -1,5 +1,3 @@
-import './style.css';
-
 const pageViews = [...document.querySelectorAll('[data-view]')];
 const pageLinks = [...document.querySelectorAll('[data-page]')];
 const menuToggle = document.querySelector('.menu-toggle');
